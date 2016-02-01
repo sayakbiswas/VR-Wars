@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 024ce542be6a0d646a585c209518c108
+timeCreated: 1454174989
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f00000040000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 5fc65cd08bea3f6e7b00d85dd22c00cc
+  longitude: -121
+  latitude: 37.649999999999999
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 17.2869606, y: 17.3066139, z: -18.9052124}
+      lookAt: {x: .45523268, y: -1.50742352, z: -5.10845423}
+      up: {x: -.505779803, y: .756511092, z: .414581448}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cockpit-Temp
+    100002: Deflector
+    100004: Deflector 1
+    100006: DishBase
+    100008: DishMount
+    100010: DriveLower
+    100012: DriveUpper
+    100014: Engine
+    100016: EngineGlow
+    100018: EngineVent
+    100020: EngineVent 1
+    100022: EngineVent 2
+    100024: EngineVent 3
+    100026: EngineVent 4
+    100028: EngineVent 5
+    100030: EscHatch
+    100032: EscHatch 1
+    100034: //RootNode
+    100036: FrontLandingPod
+    100038: FrontLowerBays
+    100040: FrontPodLower
+    100042: Group 1
+    100044: Guns
+    100046: Guns 1
+    100048: HullLower
+    100050: HullUpper
+    100052: LowerTurret
+    100054: MandiblesLower
+    100056: MandiblesUpper
+    100058: RearUnderBay
+    100060: SensorDish
+    100062: UpperFrontPod
+    100064: UpperTurret
+    400000: Cockpit-Temp
+    400002: Deflector
+    400004: Deflector 1
+    400006: DishBase
+    400008: DishMount
+    400010: DriveLower
+    400012: DriveUpper
+    400014: Engine
+    400016: EngineGlow
+    400018: EngineVent
+    400020: EngineVent 1
+    400022: EngineVent 2
+    400024: EngineVent 3
+    400026: EngineVent 4
+    400028: EngineVent 5
+    400030: EscHatch
+    400032: EscHatch 1
+    400034: //RootNode
+    400036: FrontLandingPod
+    400038: FrontLowerBays
+    400040: FrontPodLower
+    400042: Group 1
+    400044: Guns
+    400046: Guns 1
+    400048: HullLower
+    400050: HullUpper
+    400052: LowerTurret
+    400054: MandiblesLower
+    400056: MandiblesUpper
+    400058: RearUnderBay
+    400060: SensorDish
+    400062: UpperFrontPod
+    400064: UpperTurret
+    2300000: Cockpit-Temp
+    2300002: Deflector
+    2300004: Deflector 1
+    2300006: DishBase
+    2300008: DishMount
+    2300010: DriveLower
+    2300012: DriveUpper
+    2300014: Engine
+    2300016: EngineGlow
+    2300018: EngineVent
+    2300020: EngineVent 1
+    2300022: EngineVent 2
+    2300024: EngineVent 3
+    2300026: EngineVent 4
+    2300028: EngineVent 5
+    2300030: EscHatch
+    2300032: EscHatch 1
+    2300034: FrontLandingPod
+    2300036: FrontLowerBays
+    2300038: FrontPodLower
+    2300040: Group 1
+    2300042: Guns
+    2300044: Guns 1
+    2300046: HullLower
+    2300048: HullUpper
+    2300050: LowerTurret
+    2300052: MandiblesLower
+    2300054: MandiblesUpper
+    2300056: RearUnderBay
+    2300058: SensorDish
+    2300060: UpperFrontPod
+    2300062: UpperTurret
+    3300000: Cockpit-Temp
+    3300002: Deflector
+    3300004: Deflector 1
+    3300006: DishBase
+    3300008: DishMount
+    3300010: DriveLower
+    3300012: DriveUpper
+    3300014: Engine
+    3300016: EngineGlow
+    3300018: EngineVent
+    3300020: EngineVent 1
+    3300022: EngineVent 2
+    3300024: EngineVent 3
+    3300026: EngineVent 4
+    3300028: EngineVent 5
+    3300030: EscHatch
+    3300032: EscHatch 1
+    3300034: FrontLandingPod
+    3300036: FrontLowerBays
+    3300038: FrontPodLower
+    3300040: Group 1
+    3300042: Guns
+    3300044: Guns 1
+    3300046: HullLower
+    3300048: HullUpper
+    3300050: LowerTurret
+    3300052: MandiblesLower
+    3300054: MandiblesUpper
+    3300056: RearUnderBay
+    3300058: SensorDish
+    3300060: UpperFrontPod
+    3300062: UpperTurret
+    4300000: Mesh Group 1
+    4300002: Mesh UpperFrontPod
+    4300004: Mesh HullUpper
+    4300006: Mesh Deflector
+    4300008: Mesh DriveUpper
+    4300010: Mesh FrontPodLower
+    4300012: Mesh HullLower
+    4300014: Mesh RearUnderBay
+    4300016: Mesh DriveLower
+    4300018: Mesh FrontLowerBays
+    4300020: Mesh EscHatch
+    4300022: Mesh MandiblesLower
+    4300024: Mesh Engine
+    4300026: Mesh EngineGlow
+    4300028: Mesh EngineVent
+    4300030: Mesh DishBase
+    4300032: Mesh Cockpit-Temp
+    4300034: Mesh DishMount
+    4300036: Mesh SensorDish
+    4300038: Mesh FrontLandingPod
+    4300040: Mesh UpperTurret
+    4300042: Mesh LowerTurret
+    4300044: Mesh MandiblesUpper
+    4300046: Mesh Guns
+    6400000: Cockpit-Temp
+    6400002: Deflector
+    6400004: Deflector 1
+    6400006: DishBase
+    6400008: DishMount
+    6400010: DriveLower
+    6400012: DriveUpper
+    6400014: Engine
+    6400016: EngineGlow
+    6400018: EngineVent
+    6400020: EngineVent 1
+    6400022: EngineVent 2
+    6400024: EngineVent 3
+    6400026: EngineVent 4
+    6400028: EngineVent 5
+    6400030: EscHatch
+    6400032: EscHatch 1
+    6400034: FrontLandingPod
+    6400036: FrontLowerBays
+    6400038: FrontPodLower
+    6400040: Group 1
+    6400042: Guns
+    6400044: Guns 1
+    6400046: HullLower
+    6400048: HullUpper
+    6400050: LowerTurret
+    6400052: MandiblesLower
+    6400054: MandiblesUpper
+    6400056: RearUnderBay
+    6400058: SensorDish
+    6400060: UpperFrontPod
+    6400062: UpperTurret
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

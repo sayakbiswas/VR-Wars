@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: ecc984e6ac6fdd147a209e8124cfa001
+timeCreated: 1453602129
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 213073d52b780163820a10439b23bc2c
+  longitude: -105.283
+  latitude: 40.017000000000003
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.39604747, y: 8.67043304, z: 2.96119475}
+      lookAt: {x: -.31206426, y: 10.5179768, z: 5.10646057}
+      up: {x: .348043084, y: .829333782, z: -.437117249}
+      fov: 30
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: -3.91120744, y: 13.5364866, z: 2.78266025}
+        lookAt: {x: -2.12139249, y: 11.8447685, z: 4.98898649}
+        up: {x: .322322071, y: .859207273, z: .397330254}
+        fov: 30
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Page 1
+    - camera:
+        position: {x: 1.39604747, y: 8.67043304, z: 2.96119475}
+        lookAt: {x: -.31206426, y: 10.5179768, z: 5.10646057}
+        up: {x: .348043084, y: .829333782, z: -.437117249}
+        fov: 30
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Page 2
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: SimpleDome02
+    100002: SimpleDome02 1
+    100004: SimpleSphere02
+    100006: tie
+    100008: tie 1
+    100010: //RootNode
+    400000: SimpleDome02
+    400002: SimpleDome02 1
+    400004: SimpleSphere02
+    400006: tie
+    400008: tie 1
+    400010: //RootNode
+    2300000: SimpleDome02
+    2300002: SimpleDome02 1
+    2300004: SimpleSphere02
+    2300006: tie
+    2300008: tie 1
+    2300010: //RootNode
+    3300000: SimpleDome02
+    3300002: SimpleDome02 1
+    3300004: SimpleSphere02
+    3300006: tie
+    3300008: tie 1
+    3300010: //RootNode
+    4300000: Mesh TIE+X-1+Advance
+    4300002: Mesh SimpleSphere02
+    4300004: Mesh SimpleDome02
+    4300006: Mesh SimpleDome02
+    4300008: Mesh tie
+    4300010: Mesh tie
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
