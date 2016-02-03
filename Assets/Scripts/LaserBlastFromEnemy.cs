@@ -45,7 +45,8 @@ public class LaserBlastFromEnemy : MonoBehaviour {
 				if(shotToPlayerCount % 4 == 0) {
 					GameObject laserBlast = (GameObject) Instantiate(shotPrefab, enemyGunMuzzle.position, enemyGunMuzzle.rotation);
 					laserBlast.transform.LookAt(thePlayer.transform.position);
-					thePlayer.GetComponent<Collider>().SendMessageUpwards("generateSparks", thePlayer.transform.position, 
+					Debug.Log("laser shot to player");
+					thePlayer.GetComponent<Collider>().SendMessageUpwards("PlayShake", thePlayer.transform.position, 
 					                                                      SendMessageOptions.DontRequireReceiver);
 					audio.Play();
 					Destroy(laserBlast, 0.2f);

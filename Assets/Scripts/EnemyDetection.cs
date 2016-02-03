@@ -24,27 +24,25 @@ public class EnemyDetection : MonoBehaviour {
 			Debug.Log("Enemy transform position :: " + (enemy.transform.position));
 			Vector3 rayDirection = (enemy.transform.position  - new Vector3(0.0f, 13.0f, 0.0f)) - this.transform.position;
 			if (Vector3.Angle (rayDirection, this.transform.rotation * Vector3.forward) <= fieldOfView) {
-				if (Physics.Raycast (this.transform.position, enemy.transform.position - new Vector3(0.0f, 13.0f, 0.0f), out hitInfo)) {
+				if (Physics.Raycast (this.transform.position, enemy.transform.position  - new Vector3(0.0f, 13.0f, 0.0f), out hitInfo, 100.0f)) {
 					Debug.Log ("Hit Object from Falcon :: " + hitInfo.transform.name + ", " + hitInfo.transform.tag);
-					if (hitInfo.transform.tag == "Enemy") {
+					if (hitInfo.transform.tag.Contains("Enemy")) {
 						Debug.Log ("I have the Empire ship in my sights!");
 						hitObjectInfo.setHitPoint(hitInfo.point);
 						hitObjectInfo.setHitObject(hitInfo.transform.gameObject);
 						return hitObjectInfo;
 					} else {
-						Debug.Log ("Negative on Empire ship's location!");
-						return null;
+						continue;
 					}
 				} else {
-					Debug.Log ("Negative on Empire ship's location!");
-					return null;
+					continue;
 				}
 			} else {
-				Debug.Log ("Negative on Empire ship's location!");
-				return null;
+				continue;
 			}
 		}
 
+		Debug.Log ("Negative on Empire Fleet's location!!");
 		return null;
 	}
 }

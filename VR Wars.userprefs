@@ -1,15 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SplineController_CS\SplineController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ISDSound.cs">
     <Files>
-      <File FileName="Assets\SplineController_CS\SplineController.cs" Line="64" Column="23" />
+      <File FileName="Assets\SplineController_CS\SplineController.cs" Line="1" Column="1" />
       <File FileName="Assets\SplineController_CS\SplineInterpolator.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LaserBlast.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CardboardMagnetSensor.cs" Line="1" Column="1" />
-      <File FileName="Assets\EnemyDetection.cs" Line="1" Column="1" />
-      <File FileName="Assets\LaserBlastFromFalcon.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LaserBlastFromEnemy.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\HitObjectInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyDetection.cs" Line="27" Column="109" />
+      <File FileName="Assets\ISDSound.cs" Line="10" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
