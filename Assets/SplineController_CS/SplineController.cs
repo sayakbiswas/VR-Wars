@@ -15,6 +15,9 @@ public class SplineController : MonoBehaviour
 	public bool AutoStart = true;
 	public bool AutoClose = true;
 	public bool HideOnExecute = true;
+	public float waitBeforeMove;
+	public GameObject objectToMove;
+	private bool isFollowingSpline = false;
 
 
 	SplineInterpolator mSplineInterp;
@@ -54,7 +57,17 @@ public class SplineController : MonoBehaviour
 			DisableTransforms();
 
 		if (AutoStart)
-			FollowSpline();
+			FollowSpline ();
+	}
+
+	void Update() {
+		if (waitBeforeMove <= 0.0f && !isFollowingSpline) {
+			Debug.Log("Begin to move!");
+			FollowSpline ();
+			isFollowingSpline = true;
+		} else {
+			waitBeforeMove -= Time.deltaTime;
+		}
 	}
 
 	void SetupSplineInterpolator(SplineInterpolator interp, Transform[] trans)
@@ -127,8 +140,9 @@ public class SplineController : MonoBehaviour
 	/// <summary>
 	/// Starts the interpolation
 	/// </summary>
-	void FollowSpline()
+	public void FollowSpline()
 	{
+		Debug.Log ("Spline Length :: " + mTransforms.Length);
 		if (mTransforms.Length > 0)
 		{
 			SetupSplineInterpolator(mSplineInterp, mTransforms);

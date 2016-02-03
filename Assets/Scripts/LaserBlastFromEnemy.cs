@@ -2,6 +2,8 @@
 using System.Collections;
 
 [RequireComponent(typeof(CardboardAudioSource))]
+[RequireComponent(typeof(FalconDetection))]
+[RequireComponent(typeof(PlayerDetection))]
 public class LaserBlastFromEnemy : MonoBehaviour {
 
 	public Transform enemyGunMuzzle;
@@ -9,7 +11,7 @@ public class LaserBlastFromEnemy : MonoBehaviour {
 	public GameObject thePlayer;
 	public GameObject shotPrefab;
 	public AudioClip laserShot;
-	private float waitBetweenShots = 1.0f;
+	private float waitBetweenShots = 0.5f;
 	private int shotToFalconCount = 0;
 	private int shotToPlayerCount = 0;
 
@@ -40,17 +42,15 @@ public class LaserBlastFromEnemy : MonoBehaviour {
 			}
 
 			if (this.GetComponent<PlayerDetection> ().isPlayerDetected()) {
-				GameObject laserBlast = (GameObject) Instantiate(shotPrefab, enemyGunMuzzle.position, enemyGunMuzzle.rotation);
-				if(shotToPlayerCount % 2 == 0) {
-					laserBlast.transform.LookAt(thePlayer.transform.position + new Vector3(5.0f, 2.0f, 2.0f));
-				} else {
+				if(shotToPlayerCount % 4 == 0) {
+					GameObject laserBlast = (GameObject) Instantiate(shotPrefab, enemyGunMuzzle.position, enemyGunMuzzle.rotation);
 					laserBlast.transform.LookAt(thePlayer.transform.position);
 					thePlayer.GetComponent<Collider>().SendMessageUpwards("generateSparks", thePlayer.transform.position, 
 					                                                      SendMessageOptions.DontRequireReceiver);
+					audio.Play();
+					Destroy(laserBlast, 0.2f);
 				}
-				audio.Play();
 				shotToPlayerCount++;
-				Destroy(laserBlast, 0.2f);
 			}
 			waitBetweenShots = 0.5f;
 		}
