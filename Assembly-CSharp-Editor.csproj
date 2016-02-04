@@ -74,9 +74,6 @@
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>F:/Installed Games/Unity 3D/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>F:/Installed Games/Unity 3D/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -91,9 +88,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>F:/Installed Games/Unity 3D/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>F:/Installed Games/Unity 3D/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>F:/Installed Games/Unity 3D/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

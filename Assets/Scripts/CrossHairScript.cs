@@ -21,6 +21,8 @@ public class CrossHairScript : MonoBehaviour {
 			Debug.Log("Hit Object in crosshair :: " + hitObject.name + " :: " + hitObject.tag);
 			targetDistance = hitInfo.distance;
 		} else {
+			hitInfo = new RaycastHit();
+			hitInfo.distance = 0.0f;
 			targetDistance = theMainCamera.farClipPlane * 0.9f;
 		}
 

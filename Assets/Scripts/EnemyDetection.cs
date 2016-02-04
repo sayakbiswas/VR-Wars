@@ -21,7 +21,7 @@ public class EnemyDetection : MonoBehaviour {
 		enemies = GameObject.FindGameObjectsWithTag("Enemy");
 		foreach (GameObject enemy in enemies) {
 			HitObjectInfo hitObjectInfo = new HitObjectInfo();
-			Debug.Log("Enemy transform position :: " + (enemy.transform.position));
+			//Debug.Log("Enemy transform position :: " + (enemy.transform.position));
 			Vector3 rayDirection = (enemy.transform.position  - new Vector3(0.0f, 13.0f, 0.0f)) - this.transform.position;
 			if (Vector3.Angle (rayDirection, this.transform.rotation * Vector3.forward) <= fieldOfView) {
 				if (Physics.Raycast (this.transform.position, enemy.transform.position  - new Vector3(0.0f, 13.0f, 0.0f), out hitInfo, 100.0f)) {
