@@ -1,11 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LaserBlast.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CrossHairScript.cs">
     <Files>
-      <File FileName="Assets\Timer.cs" Line="28" Column="21" />
-      <File FileName="Assets\VolumetricLines\ExampleScenes\ExampleScripts\ShotBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\HitCollision.cs" Line="17" Column="18" />
+      <File FileName="Assets\SplineController\MySplineController.cs" Line="138" Column="2" />
+      <File FileName="Assets\Scripts\SplineController3.cs" Line="1" Column="1" />
+      <File FileName="Assets\FireScript\HitEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\FireScript\FireLaser.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LaserBlast.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LaserBlast3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Timer.cs" Line="57" Column="5" />
+      <File FileName="Assets\UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\TimerBetweenLevels.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CrossHairScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

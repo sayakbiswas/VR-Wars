@@ -9,18 +9,25 @@ public class Timer : MonoBehaviour {
 	public GameObject bigHitExplosion;
 	private ParticleSystem[] explosionEffects;
 	public AudioClip explosionClip;
+	public bool isOneMinLimit = false;
+	private int timeLimit = 140;
+	public string nextScene;
 
 	// Use this for initialization
 	void Start () {
 		timer = 0.0f;
+
+		if (isOneMinLimit) {
+			timeLimit = 90;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		timer += Time.deltaTime * 1;
 		timerInSecond = Mathf.RoundToInt (timer);
-		Debug.Log ("Time :: " + timerInSecond);
-		if (timerInSecond >= 140) {
+		//Debug.Log ("Time :: " + timerInSecond);
+		if (timerInSecond >= timeLimit) {
 			GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 			foreach (GameObject enemy in enemies) {
 				if(enemy.gameObject.transform.name.Contains("victory")) {
@@ -42,6 +49,12 @@ public class Timer : MonoBehaviour {
 				}
 
 				Destroy(enemy, 0.2f);
+			}
+
+			if(nextScene == "None") {
+				Application.Quit();
+			} else {
+				Application.LoadLevel(nextScene);
 			}
 		}
 	}

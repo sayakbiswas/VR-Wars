@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.19348335, y: 26.6605339, z: 66.1337357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 420996}
@@ -2119,11 +2119,11 @@ ParticleSystem:
     plane3: {fileID: 0}
     plane4: {fileID: 0}
     plane5: {fileID: 0}
-    dampen: .200000003
-    bounce: .200000003
+    dampen: 0
+    bounce: 1
     energyLossOnCollision: 0
     minKillSpeed: 0
-    particleRadius: .5
+    particleRadius: .00999999978
     collidesWith:
       serializedVersion: 2
       m_Bits: 4294967295
